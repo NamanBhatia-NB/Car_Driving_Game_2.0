@@ -14,7 +14,7 @@ class Car {
         this.controls = new Controls(controlType);
 
         this.img = new Image();
-        this.img.src = "car.png"; // Make sure this is in your project folder
+        this.img.src = "image/car.png"; // Make sure this is in your project folder
     }
 
     update() {
