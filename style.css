@@ -1,0 +1,43 @@
+body{
+    margin: 0;
+    background: darkgray;
+    overflow: hidden;
+    text-align: center;
+}
+
+#myCanvas{
+    background: lightgray;
+}
+
+#mobileControls {
+    position: fixed;
+    bottom: 20px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    display: none;
+}
+
+#mobileControls button {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: none;
+    background-color: rgba(0,0,0,0.5);
+    color: white;
+    font-size: 20px;
+    margin: 5px;
+    touch-action: manipulation;
+}
+
+#mobileControls div {
+    display: flex;
+    justify-content: center;
+}
+
+@media (max-width: 768px) {
+    #mobileControls {
+        display: flex;
+    }
+}
